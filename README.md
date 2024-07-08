@@ -20,9 +20,6 @@ It has all the packages that is needed to function the YoloV5 app, and explenati
 ## AWS - Final Project.pptx
 This is the final presentation for the AWS project. It contains slides summarizing the project's goals, architecture, implementation details, and results. This presentation can be used to showcase the project to stakeholders or during a project review.
 
-## README.md
-The `README.md` file provides an overview of the project, including instructions on how to set up and run the project. It also includes detailed explanations of the project files and directories, as well as any other relevant information needed to understand and use the project.
-
 ### Additional Details
 
 - **polybot**: The main components of the Polybot service, including message handling, image upload to S3, and job submission to SQS.
@@ -30,7 +27,6 @@ The `README.md` file provides an overview of the project, including instructions
 - **yolo5**: Scripts and configurations for the YOLOv5 service, including code for consuming jobs from SQS, processing images, and writing results to DynamoDB.
 - **yolov5**: Supporting files and additional configurations for the YOLOv5 model, ensuring the object detection service runs smoothly.
 - **AWS - Final Project.pptx**: A comprehensive presentation outlining the project's objectives, design, and outcomes.
-- **README.md**: This file itself, providing a detailed explanation of the project, setup instructions, and file descriptions.
 
 
 # ObjectDetectionBot Setup and Workflow
