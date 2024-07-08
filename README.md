@@ -59,6 +59,9 @@
        -e SQS_QUEUE_URL=<Your_SQS_URL> \
        polybot
      ```
+### NOTE: 
+We used a Secret Manager for all the variables we passed for the project.
+more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html
 
 ## Workflow Process
 
