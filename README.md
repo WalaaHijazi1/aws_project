@@ -1,4 +1,3 @@
-![image](https://github.com/WalaaHijazi1/aws_project/assets/151656646/a510d1de-45bb-4533-9641-d190f2303ea2)
 
 <img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/57eca09f-cea3-415b-acbc-a7c51fd737d5.jpg" width="850" height="200">
 
@@ -82,7 +81,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 
 ### PolyBot Activation Flow (From the presentation Above):
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/937bd80a-172f-4504-bbed-cc147e90ecf6.jpg" width="650" height="500">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/937bd80a-172f-4504-bbed-cc147e90ecf6.jpg" width="750" height="300">
 
 
 ### Message Handling
@@ -102,7 +101,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 
 ### Image Processing Workflow: User to Yolo5 Service Integration (From the presentation Above):
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/e8a8dab9-9489-438a-967d-b6f43dae4008.jpg" width="650" height="500">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/e8a8dab9-9489-438a-967d-b6f43dae4008.jpg" width="750" height="300">
 
 
 ### Yolo5 Service Processing
@@ -123,7 +122,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 
 ### YOLO5 ---> PolyBot Communication (From the presentation Above):
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/9c4e5bf8-e948-4a14-bf02-92bc02369058.jpg" width="650" height="500">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/9c4e5bf8-e948-4a14-bf02-92bc02369058.jpg" width="750" height="300">
 
 ### Autoscaling the Yolo5 Service
 #### 1. MetricStreamer Microservice
@@ -144,7 +143,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 ### Dynamic Autoscaling of Yolo5 Service Based on SQS Queue Metrics (From the presentation Above):
 
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/f69af6cf-0c30-4b1f-ad8a-af899cbe4b3e.jpg" width="650" height="500">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/f69af6cf-0c30-4b1f-ad8a-af899cbe4b3e.jpg" width="750" height="300">
 
 
 ## THE RESULT:
