@@ -130,3 +130,6 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 
 THE RESULT:
 
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/33395f12-115d-49ce-8f33-91137aab8b4d.jpg" width="600" height="350">
+
+
