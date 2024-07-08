@@ -1,0 +1,7 @@
+First, We created an EC2 instance of type t2.micro.
+Then created an AMI image from the same instance 
+After creating an image, and we could see that her sstatus is available, we launche an instance from that image.
+
+Setting Up the Load Balancer and Certificates:
+
+
