@@ -1,4 +1,4 @@
-
+![image](https://github.com/WalaaHijazi1/aws_project/assets/151656646/a510d1de-45bb-4533-9641-d190f2303ea2)
 
 <img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/57eca09f-cea3-415b-acbc-a7c51fd737d5.jpg" width="850" height="200">
 
@@ -80,6 +80,11 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 - A Python script sets up a web server using Flask, listening on port 8443.
 - The server handles HTTP requests and starts an instance of `ObjectDetectionBot`.
 
+### PolyBot Activation Flow (From the presentation Above):
+
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/937bd80a-172f-4504-bbed-cc147e90ecf6.jpg" width="650" height="500">
+
+
 ### Message Handling
 #### 1. Receiving Messages
 - The server receives messages sent to the Telegram bot as HTTP POST requests at the webhook URL.
@@ -94,6 +99,11 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
   - The bot uploads the photo to an S3 bucket.
   - The bot sends a job message to an SQS queue with the image details (e.g., S3 URL) and Telegram chat_id.
   - The bot informs the user that the image is being processed.
+
+### Image Processing Workflow: User to Yolo5 Service Integration (From the presentation Above):
+
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/e8a8dab9-9489-438a-967d-b6f43dae4008.jpg" width="650" height="500">
+
 
 ### Yolo5 Service Processing
 #### 1. Polling SQS Queue
@@ -111,6 +121,10 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 - Polybot retrieves the results from DynamoDB based on the `predictionId`.
 - Polybot sends the results back to the user on Telegram, listing all detected objects in the image.
 
+### YOLO5 ---> PolyBot Communication (From the presentation Above):
+
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/9c4e5bf8-e948-4a14-bf02-92bc02369058.jpg" width="650" height="500">
+
 ### Autoscaling the Yolo5 Service
 #### 1. MetricStreamer Microservice
 - MetricStreamer runs periodically (every 30 seconds).
@@ -127,9 +141,14 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 - When the CloudWatch alarm triggers, the ASG adjusts the number of Yolo5 instances based on the scaling policy. If `BacklogPerInstance` is high, it will scale out by adding more instances. If it's low, it will scale in by terminating instances.
 
 
+### Dynamic Autoscaling of Yolo5 Service Based on SQS Queue Metrics (From the presentation Above):
 
-THE RESULT:
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/33395f12-115d-49ce-8f33-91137aab8b4d.jpg" width="600" height="350">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/f69af6cf-0c30-4b1f-ad8a-af899cbe4b3e.jpg" width="650" height="500">
+
+
+## THE RESULT:
+
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/33395f12-115d-49ce-8f33-91137aab8b4d.jpg" width="500" height="450">
 
 
