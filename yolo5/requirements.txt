@@ -1,0 +1,4 @@
+pyyaml
+loguru
+boto3
+requests
