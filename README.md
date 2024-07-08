@@ -122,7 +122,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 
 ### YOLO5 ---> PolyBot Communication (From the presentation Above):
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/9c4e5bf8-e948-4a14-bf02-92bc02369058.jpg" width="750" height="300">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/9c4e5bf8-e948-4a14-bf02-92bc02369058.jpg" width="800" height="400">
 
 ### Autoscaling the Yolo5 Service
 #### 1. MetricStreamer Microservice
@@ -143,7 +143,7 @@ more about secret manager: https://docs.aws.amazon.com/secretsmanager/latest/use
 ### Dynamic Autoscaling of Yolo5 Service Based on SQS Queue Metrics (From the presentation Above):
 
 
-<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/f69af6cf-0c30-4b1f-ad8a-af899cbe4b3e.jpg" width="750" height="300">
+<img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/f69af6cf-0c30-4b1f-ad8a-af899cbe4b3e.jpg" width="800" height="400">
 
 
 ## THE RESULT:
