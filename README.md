@@ -2,6 +2,36 @@
 <img src="https://github.com/WalaaHijazi1/aws_project/assets/151656646/57eca09f-cea3-415b-acbc-a7c51fd737d5.jpg" width="850" height="200">
 
 
+# Project Files and Directories
+
+## polybot1
+The `polybot` directory contains the source code and configuration files for the Polybot service. This service is responsible for handling interactions with the Telegram bot, uploading images to S3, sending job messages to SQS, and informing the user about the processing status.
+
+## polybot2
+The `polybot2` directory contains the source code and configuration files for the Polybot service running on the second machine. This includes the implementation of the Telegram bot and the logic for handling user interactions and processing images.
+
+## yolo5
+The `yolo5` directory contains the service files for the YOLOv5 object detection model. This service is responsible for downloading images from S3, processing them using the YOLOv5 model, and writing the results to DynamoDB. It includes the necessary scripts and configurations to run the YOLOv5 service within a Docker container.
+
+## yolov5
+This file is a cloned repository from: https://github.com/ultralytics/yolov5 .
+It has all the packages that is needed to function the YoloV5 app, and explenation about the AI tool, and it's function.
+
+## AWS - Final Project.pptx
+This is the final presentation for the AWS project. It contains slides summarizing the project's goals, architecture, implementation details, and results. This presentation can be used to showcase the project to stakeholders or during a project review.
+
+## README.md
+The `README.md` file provides an overview of the project, including instructions on how to set up and run the project. It also includes detailed explanations of the project files and directories, as well as any other relevant information needed to understand and use the project.
+
+### Additional Details
+
+- **polybot**: The main components of the Polybot service, including message handling, image upload to S3, and job submission to SQS.
+- **polybot2**: The Polybot service setup for the second machine, handling similar functionalities as the main Polybot service.
+- **yolo5**: Scripts and configurations for the YOLOv5 service, including code for consuming jobs from SQS, processing images, and writing results to DynamoDB.
+- **yolov5**: Supporting files and additional configurations for the YOLOv5 model, ensuring the object detection service runs smoothly.
+- **AWS - Final Project.pptx**: A comprehensive presentation outlining the project's objectives, design, and outcomes.
+- **README.md**: This file itself, providing a detailed explanation of the project, setup instructions, and file descriptions.
+
 
 # ObjectDetectionBot Setup and Workflow
 
